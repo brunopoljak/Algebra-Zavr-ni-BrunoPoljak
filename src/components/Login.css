@@ -1,0 +1,26 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 50vh;
+  border-radius: 10px;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.login-form > * {
+  margin-top: 4rem;
+}
+.login-btn {
+  background: #381d61;
+  margin-bottom: 3rem;
+  width: 8rem;
+  border-radius: 3px;
+}
+.login-btn:hover {
+  background-color: #381d61e2;
+}
+.container {
+  height: 20vh;
+  width: 25%;
+}
