@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.e4365275.css",
+    "main.js": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.b3a2e776.js",
+    "index.html": "/Algebra-Zavr-ni-BrunoPoljak/index.html",
+    "main.e4365275.css.map": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.e4365275.css.map",
+    "main.b3a2e776.js.map": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.b3a2e776.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4365275.css",
+    "static/js/main.b3a2e776.js"
+  ]
+}
