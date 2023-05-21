@@ -12,7 +12,7 @@
   width: 280px;
   min-height: 100vh;
   box-shadow: 0px 4px 8px rgb(0 0 0 / 16%);
-  background-color: #fff;
+  background-color: #dfe1f0;
   position: fixed;
   top: 0;
   left: -100%;
@@ -63,8 +63,10 @@
   width: 100%;
   padding: 10px 16px;
   color: #475f7b;
-  background-color: #e5e8ec;
-  border-radius: 4px;
+  border-bottom: 2px solid #e5e8ec;
   cursor: pointer;
   text-decoration: none;
+}
+.sd-body ul li .sd-link:hover {
+  border-color: #4a4de5b2;
 }

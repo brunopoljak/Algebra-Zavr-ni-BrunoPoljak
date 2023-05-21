@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
+import icon from "./icon-128x128.png";
 
 const Login = (props) => {
   const [usernameText, setUsernameText] = useState("");
@@ -15,11 +16,15 @@ const Login = (props) => {
   return (
     <div className="container">
       <form className="login-form" onSubmit={handleSubmit}>
+        <div className="loginimg">
+          <img src={icon} width="100" height="100" />
+        </div>
         <label htmlFor="title">
-          <h1>Login</h1>
+          <h1>Chat account</h1>
         </label>
         <input
           id="title"
+          className="titleborder"
           type="text"
           placeholder="Enter your username"
           required

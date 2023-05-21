@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  height: 50vh;
+  box-shadow: 0px 0px 20px #6f6f6f7c;
   border-radius: 10px;
   margin-top: 2rem;
   justify-content: center;
@@ -12,15 +12,26 @@
   margin-top: 4rem;
 }
 .login-btn {
-  background: #381d61;
-  margin-bottom: 3rem;
+  padding: 5px;
+  color: white;
+  background: #4a4ce5f5;
+  margin-bottom: 4rem;
   width: 8rem;
   border-radius: 3px;
+  border: none !important;
 }
 .login-btn:hover {
-  background-color: #381d61e2;
+  color: white;
+  background-color: #4a4de5b2;
 }
 .container {
   height: 20vh;
   width: 25%;
+}
+input::placeholder {
+  font-size: 13px;
+  color: #6f6f6f7c;
+}
+input[type="text"]:focus {
+  outline: 1px solid #928c9ce2;
 }
