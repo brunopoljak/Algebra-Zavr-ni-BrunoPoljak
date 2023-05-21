@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  margin: auto;
+  margin: 0 auto;
   overflow: visible;
   width: 60%;
   display: flex;
@@ -131,4 +131,24 @@ button:hover {
   border: none !important;
   color: white;
   font-size: 27px;
+}
+.wrap-one {
+  margin-top: 50px;
+}
+.wrap-one h1 {
+  color: black;
+  font-size: 60px !important;
+  text-align: center;
+}
+.wrapper {
+  margin: 0px 200px;
+  color: black;
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+}
+.wrapper img {
+  margin-bottom: 30px;
 }
