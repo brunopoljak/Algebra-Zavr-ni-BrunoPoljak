@@ -9,7 +9,7 @@ const About = () => {
       </div>
       <div className="wrapper">
         <div className="wrapper-one">
-          <img src={phone} width="100" height="100" />
+          <img src={phone} width="200" height="200" />
           <h1>Mobile app</h1>
           <p>
             Our app is an encrypted messaging service for instant messaging,
@@ -20,7 +20,7 @@ const About = () => {
           </p>
         </div>
         <div className="wrapper-two">
-          <img src={computer} width="100" height="100" />
+          <img src={computer} width="200" height="200" />
           <h1>On your Pc</h1>
           <p>
             Our app is an encrypted messaging service for instant messaging,

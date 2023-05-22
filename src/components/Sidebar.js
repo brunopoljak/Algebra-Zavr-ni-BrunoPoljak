@@ -24,7 +24,11 @@ class Sidebar extends React.Component {
           <div className="sd-body">
             <ul>
               <li>
-                <Link to="/Algebra-Zavr-ni-BrunoPoljak/" className="sd-link">
+                <Link
+                  to="/Algebra-Zavr-ni-BrunoPoljak/"
+                  className="sd-link"
+                  onClick={this.ToggleSidebar}
+                >
                   Chat
                 </Link>
               </li>
@@ -32,6 +36,7 @@ class Sidebar extends React.Component {
                 <Link
                   to="/Algebra-Zavr-ni-BrunoPoljak/about"
                   className="sd-link"
+                  onClick={this.ToggleSidebar}
                 >
                   About
                 </Link>
