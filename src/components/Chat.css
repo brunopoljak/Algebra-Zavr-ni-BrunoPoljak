@@ -2,16 +2,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
+  height: 90vh;
+  margin: auto;
+  width: 70%;
+  border-radius: 10px;
 }
 
 .App-header {
-  background-color: #211f25;
+  margin: 10px auto;
+  padding: 10px 0;
   overflow: visible;
   width: 100%;
-  color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-bottom: 1px solid #6f6f6f47;
 }
 
 .Messages-list {
@@ -51,26 +55,38 @@
   display: inline-block;
   margin: 0 10px -10px;
 }
+.avatar div {
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  text-transform: uppercase;
+  border-bottom: 2px solid #6f6f6f7c;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+}
 
 .Message-content > .username {
   display: block;
   color: gray;
-  font-size: 14px;
+  font-size: 10px;
   padding-bottom: 4px;
+  padding-top: 10px;
 }
 
 .Message-content > .text {
   padding: 10px;
   max-width: 400px;
   margin: 0;
-  border-radius: 11px;
+  border-radius: 5px;
   background-color: cornflowerblue;
   color: white;
   display: inline-block;
 }
 
 .currentMember > .Message-content .text {
-  background-color: #381d6174;
+  background-color: white;
+  color: #6f6f6f;
 }
 
 form {
@@ -84,14 +100,14 @@ form {
 input {
   padding: 5px;
   font-size: 16px;
-  border-radius: 8px;
+
   border: 1px solid #dfe1f0;
   width: 55%;
   background: #f6f7ff;
   flex-grow: 1;
 }
 
-button {
+input button {
   padding: 5px 10px;
   font-size: 16px;
   background-color: #6f6f6f;
@@ -99,11 +115,64 @@ button {
   border: none;
 }
 button:hover {
-  color: #211f25;
+  color: white;
 }
 .btn-send {
-  background: #381d61e2;
-  width: 5rem;
-  border-radius: 8px;
+  color: white;
+  background: #4a4ce5f5;
+  width: 7rem;
+  border-radius: 3px;
   margin-left: 10px;
+  border: none !important;
+}
+
+.roundbtn {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  text-transform: uppercase;
+  background-color: #4a4ce5f5;
+  border: none !important;
+  color: white;
+  font-size: 27px;
+}
+.wrap-one {
+  margin-top: 50px;
+}
+.wrap-one h1 {
+  margin: auto;
+  color: black;
+  font-size: 60px !important;
+  text-align: center;
+}
+.wrapper {
+  margin: 0px 200px;
+  color: black;
+  margin-top: 200px;
+  text-align: center;
+  display: flex;
+  gap: 200px;
+  justify-content: center;
+  text-align: justify;
+}
+.wrapper img {
+  margin-bottom: 30px;
+}
+.wrapper-one,
+.wrapper-two p {
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+    margin: 30px 30px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .App {
+    height: none;
+  }
+  .container {
+    width: 100% !important;
+  }
 }
