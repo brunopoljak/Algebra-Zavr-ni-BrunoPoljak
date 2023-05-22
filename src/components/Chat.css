@@ -9,12 +9,13 @@
 }
 
 .App-header {
-  margin: 30px auto;
-  padding: auto 30px;
+  margin: 10px auto;
+  padding: 10px 0;
   overflow: visible;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border-bottom: 1px solid #6f6f6f47;
 }
 
 .Messages-list {
@@ -68,22 +69,24 @@
 .Message-content > .username {
   display: block;
   color: gray;
-  font-size: 14px;
+  font-size: 10px;
   padding-bottom: 4px;
+  padding-top: 10px;
 }
 
 .Message-content > .text {
   padding: 10px;
   max-width: 400px;
   margin: 0;
-  border-radius: 11px;
+  border-radius: 5px;
   background-color: cornflowerblue;
   color: white;
   display: inline-block;
 }
 
 .currentMember > .Message-content .text {
-  background-color: #381d6174;
+  background-color: white;
+  color: #6f6f6f;
 }
 
 form {
@@ -168,5 +171,8 @@ button:hover {
   }
   .App {
     height: none;
+  }
+  .container {
+    width: 100% !important;
   }
 }
