@@ -9,9 +9,21 @@ const Header = (props) => {
           <button className="sidebar-btn" onClick={props.toggleSidebar}>
             Sidebar
           </button>
-
-          <button className="roundbtn" onClick={props.handleLogout}>
-            {props.username[0]}
+          <button className="dropdown">
+            <button className="dropbtn">
+              {props.username[0]}
+              <div className="dropdown-content">
+                <a href="#">Registracija</a>
+                <a href="#">Link 2</a>
+                <button
+                  href="#"
+                  className="headerbtn"
+                  onClick={props.handleLogout}
+                >
+                  Logout
+                </button>
+              </div>
+            </button>
           </button>
         </div>
       )}
