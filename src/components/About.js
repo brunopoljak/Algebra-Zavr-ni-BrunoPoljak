@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="section">
       <section className="image"></section>
-      <section className="text">
+      <section className="txt">
         <h2>About us</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -30,7 +30,7 @@ const About = () => {
       </section>
 
       <section className="image"></section>
-      <section className="text">
+      <section className="txt">
         <h2>Our chat on your mobile</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -56,7 +56,7 @@ const About = () => {
       </section>
 
       <section className="image"></section>
-      <section className="text">
+      <section className="txt">
         <h2>Our chat on PC</h2>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting

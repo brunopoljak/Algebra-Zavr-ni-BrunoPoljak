@@ -128,14 +128,14 @@ button:hover {
   margin-left: 10px;
   border: none !important;
 }
-.text p,
+.txt p,
 h2,
 button {
   position: relative;
   z-index: 1;
   margin: 20px 15%;
 }
-.text button {
+.txt button {
   float: right;
   margin-top: 10px;
   margin-right: 300px;
@@ -147,10 +147,10 @@ button {
   margin-left: 10px;
   border: none !important;
 }
-.text button:hover {
+.txt button:hover {
   background-color: purple;
 }
-.text h2 {
+.txt h2 {
   margin-top: 50px;
   text-transform: uppercase;
 }
@@ -165,14 +165,14 @@ section {
   background-position: center;
   background-image: url("/src/components/2019-Purple-Abstract-4K-HD-Design-Wallpaper-1920x1080-10wallpaper.com.jpg");
 }
-.text {
+.txt {
   justify-content: center;
   width: 80%;
   height: 50vh;
   background: #6f6f6f;
   position: relative;
 }
-.text::before {
+.txt::before {
   content: "";
   display: block;
   position: absolute;
