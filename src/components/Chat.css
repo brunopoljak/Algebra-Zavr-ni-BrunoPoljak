@@ -128,33 +128,63 @@ button:hover {
   margin-left: 10px;
   border: none !important;
 }
-
-.wrap-one {
+.text p,
+h2,
+button {
+  position: relative;
+  z-index: 1;
+  margin: 20px 15%;
+}
+.text button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 300px;
+  color: white;
+  background: #4a4ce5f5;
+  width: 9rem;
+  padding: 5px 0;
+  border-radius: 3px;
+  margin-left: 10px;
+  border: none !important;
+}
+.text button:hover {
+  background-color: purple;
+}
+.text h2 {
   margin-top: 50px;
+  text-transform: uppercase;
 }
-.wrap-one h1 {
+section {
   margin: auto;
-  color: black;
-  font-size: 60px !important;
-  text-align: center;
+  background-color: #928c9ce2;
 }
-.wrapper {
-  margin: 0px 200px;
-  color: black;
-  margin-top: 200px;
-  text-align: center;
-  display: flex;
-  gap: 200px;
+.image {
+  height: 380px;
+  background-color: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("/src/components/2019-Purple-Abstract-4K-HD-Design-Wallpaper-1920x1080-10wallpaper.com.jpg");
+}
+.text {
   justify-content: center;
-  text-align: justify;
+  width: 80%;
+  height: 50vh;
+  background: #6f6f6f;
+  position: relative;
 }
-.wrapper img {
-  margin-bottom: 30px;
+.text::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 125%;
+  background: #ffffff;
+  rotate: -3deg;
+  translate: -50% -50%;
 }
-.wrapper-one,
-.wrapper-two p {
-  margin: auto;
-}
+
 @media only screen and (max-width: 600px) {
   .wrapper {
     flex-direction: column;
@@ -204,7 +234,7 @@ button:hover {
 
 .dropdown-content a {
   font-size: 20px;
-  color: #6f6f6f7c;
+  color: black;
   padding: 12px 16px;
   text-decoration: none !important;
   list-style-type: none;
@@ -237,4 +267,74 @@ button:hover {
 }
 .headerbtn:hover {
   background-color: rgba(100, 10, 10, 0.912);
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+input[type="checkbox"] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: fixed;
+  z-index: 1001;
+  height: 100%;
+  width: 100%;
+  top: 12px;
+  left: 15px;
+  height: 22px;
+  width: 22px;
+  margin-left: 340px;
+}
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  margin-top: 3px;
+}
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: right;
+}
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: right;
+  margin-top: 3px;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 9px;
+}
+
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
 }

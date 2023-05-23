@@ -7,7 +7,7 @@ const Header = (props) => {
       {isLoggedIn && (
         <div className="App-header">
           <button className="sidebar-btn" onClick={props.toggleSidebar}>
-            Sidebar
+            menu
           </button>
           <button className="dropdown">
             <button className="dropbtn">
