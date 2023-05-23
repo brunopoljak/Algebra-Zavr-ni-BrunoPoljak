@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.aeb87229.css",
-    "main.js": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.86ca4ec0.js",
+    "main.css": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.9fe653ac.css",
+    "main.js": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.d42a3074.js",
     "index.html": "/Algebra-Zavr-ni-BrunoPoljak/index.html",
     "static/media/mobile_friendly_FILL0_wght400_GRAD0_opsz48.svg": "/Algebra-Zavr-ni-BrunoPoljak/static/media/mobile_friendly_FILL0_wght400_GRAD0_opsz48.a2ba00c82d45849ccca9bb27f3de148e.svg",
-    "main.aeb87229.css.map": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.aeb87229.css.map",
-    "main.86ca4ec0.js.map": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.86ca4ec0.js.map"
+    "main.9fe653ac.css.map": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.9fe653ac.css.map",
+    "main.d42a3074.js.map": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.d42a3074.js.map"
   },
   "entrypoints": [
-    "static/css/main.aeb87229.css",
-    "static/js/main.86ca4ec0.js"
+    "static/css/main.9fe653ac.css",
+    "static/js/main.d42a3074.js"
   ]
 }
