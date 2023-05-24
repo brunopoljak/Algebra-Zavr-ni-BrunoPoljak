@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.35e27ebc.css",
+    "main.css": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.fecc6a87.css",
     "main.js": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.d5a81000.js",
     "static/media/2019-Purple-Abstract-4K-HD-Design-Wallpaper-1920x1080-10wallpaper.com.jpg": "/Algebra-Zavr-ni-BrunoPoljak/static/media/2019-Purple-Abstract-4K-HD-Design-Wallpaper-1920x1080-10wallpaper.com.2f2ea0537b579dd48e8f.jpg",
     "index.html": "/Algebra-Zavr-ni-BrunoPoljak/index.html",
     "static/media/mobile_friendly_FILL0_wght400_GRAD0_opsz48.svg": "/Algebra-Zavr-ni-BrunoPoljak/static/media/mobile_friendly_FILL0_wght400_GRAD0_opsz48.a2ba00c82d45849ccca9bb27f3de148e.svg",
-    "main.35e27ebc.css.map": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.35e27ebc.css.map",
+    "main.fecc6a87.css.map": "/Algebra-Zavr-ni-BrunoPoljak/static/css/main.fecc6a87.css.map",
     "main.d5a81000.js.map": "/Algebra-Zavr-ni-BrunoPoljak/static/js/main.d5a81000.js.map"
   },
   "entrypoints": [
-    "static/css/main.35e27ebc.css",
+    "static/css/main.fecc6a87.css",
     "static/js/main.d5a81000.js"
   ]
 }
