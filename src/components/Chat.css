@@ -1,15 +1,18 @@
 .Chat {
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 90vh;
-  margin: auto;
-  width: 70%;
-  border-radius: 10px;
+  height: 80vh;
+  margin: 0 auto;
+  border: 2px solid #6f6f6f47;
+
+  width: 60%;
+  box-shadow: 0px 0px 20px #6f6f6f7c;
 }
 
 .App-header {
-  margin: 10px auto;
+  margin: 10px auto 0;
   padding: 10px 0;
   overflow: visible;
   width: 100%;
@@ -75,18 +78,22 @@
 }
 
 .Message-content > .text {
+  padding: 6px;
+  font-size: 14px;
   padding: 10px;
   max-width: 400px;
   margin: 0;
   border-radius: 5px;
-  background-color: cornflowerblue;
+  background-color: rgba(100, 148, 237, 0.722);
   color: white;
   display: inline-block;
 }
 
 .currentMember > .Message-content .text {
-  background-color: white;
-  color: #6f6f6f;
+  padding: 6px;
+  font-size: 14px;
+  background-color: #4a4de59e;
+  color: white;
 }
 
 form {
