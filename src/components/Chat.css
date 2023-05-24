@@ -5,10 +5,10 @@
   justify-content: space-between;
   height: 80vh;
   margin: 0 auto;
-  border: 2px solid #6f6f6f47;
-
+  border: 1px solid #6f6f6f47;
+  border-radius: 5px;
   width: 60%;
-  box-shadow: 0px 0px 20px #6f6f6f7c;
+  box-shadow: 0px 0px 10px #6f6f6f7c;
 }
 
 .App-header {
@@ -231,7 +231,7 @@ section {
   position: absolute;
   margin-top: 5px;
   transform: translateX(-250px);
-  border-radius: 15px;
+  border-radius: 5px;
   border: 3px solid rgba(128, 128, 128, 0.144);
   background-color: #f1f1f1;
   min-width: 300px;
