@@ -3,6 +3,7 @@ import React from "react";
 import Input from "./Input";
 import Sidebar from "./Sidebar";
 import "./Chat.css";
+import Header from "./Header";
 
 function randomName() {
   const adjectives = [

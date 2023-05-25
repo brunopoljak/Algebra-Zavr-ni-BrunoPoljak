@@ -1,28 +1,28 @@
 .Chat {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.165);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80vh;
-  margin: 0 auto;
+  height: 90vh;
+  margin: 0 auto 50px;
   border: 1px solid #6f6f6f47;
   border-radius: 5px;
   width: 60%;
-  box-shadow: 0px 0px 10px #6f6f6f7c;
+  box-shadow: 0px 0px 1000px 30px #230134;
 }
 
 .App-header {
-  margin: 10px auto 0;
-  padding: 10px 0;
+  margin: auto;
+
   overflow: visible;
+  transform: translateY(100px);
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid #6f6f6f47;
 }
 
 .Messages-list {
-  padding: 20px 0;
+  padding: 150px 50px 20px;
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
@@ -80,7 +80,6 @@
 .Message-content > .text {
   padding: 6px;
   font-size: 14px;
-  padding: 10px;
   max-width: 400px;
   margin: 0;
   border-radius: 5px;
@@ -215,15 +214,17 @@ section {
   border: none !important;
   color: white;
   font-size: 27px;
+  transform: translateX(-6px);
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
   border-radius: 50%;
+  color: none;
   width: 55px;
   height: 55px;
-  color: none;
+  background-color: #4a4ce5f5;
 }
 
 .dropdown-content {
@@ -251,7 +252,7 @@ section {
 }
 
 .dropdown-content a:hover {
-  color: white;
+  color: #23013479;
   background-color: rgba(128, 128, 128, 0.144);
   border-bottom: 2px solid #6f6f6f7c;
 }
@@ -273,7 +274,7 @@ section {
   font-size: 25px;
 }
 .headerbtn:hover {
-  background-color: rgba(100, 10, 10, 0.912);
+  background-color: #4c0a6dd3;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);

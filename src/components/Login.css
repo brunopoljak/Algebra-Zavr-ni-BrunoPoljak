@@ -1,8 +1,8 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  background-color: white;
-  box-shadow: 0px 0px 20px #6f6f6f7c;
+  background-color: rgba(255, 255, 255, 0.166);
+  box-shadow: 0px 0px 1000px 100px #230134;
   border-radius: 10px;
   margin-top: 2rem;
   justify-content: center;

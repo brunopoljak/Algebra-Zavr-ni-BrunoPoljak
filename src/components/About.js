@@ -1,6 +1,5 @@
 import "./Chat.css";
-import phone from "./mobile_friendly_FILL0_wght400_GRAD0_opsz48.svg";
-import computer from "./ux.png";
+
 const About = () => {
   return (
     <section className="section">

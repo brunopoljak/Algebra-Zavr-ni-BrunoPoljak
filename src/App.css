@@ -2,5 +2,9 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #dfe1f0;
+
+  background-color: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("/src/components/2019-Purple-Abstract-4K-HD-Design-Wallpaper-1920x1080-10wallpaper.com.jpg");
 }
