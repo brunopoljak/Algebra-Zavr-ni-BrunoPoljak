@@ -1,5 +1,5 @@
 .Chat {
-  background-color: rgba(255, 255, 255, 0.165);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -34,6 +34,7 @@
 
 .Messages-message {
   display: flex;
+  margin-left: 50px;
   margin-top: 10px;
 }
 
@@ -132,6 +133,7 @@ button:hover {
   width: 7rem;
   border-radius: 3px;
   margin-left: 10px;
+
   border: none !important;
 }
 .txt p,
@@ -148,7 +150,7 @@ button {
   color: white;
   background: #4a4ce5f5;
   width: 9rem;
-  padding: 5px 0;
+  padding: 5px 10px;
   border-radius: 3px;
   margin-left: 10px;
   border: none !important;
@@ -161,6 +163,7 @@ button {
   text-transform: uppercase;
 }
 section {
+  scroll-behavior: smooth;
   margin: auto;
   background-color: #928c9ce2;
 }
@@ -204,6 +207,40 @@ section {
   .container {
     width: 100% !important;
   }
+  .Chat {
+    width: 90%;
+    height: 90%;
+  }
+  .sidebarIconToggle {
+    margin-left: 20px !important;
+  }
+  .txt p {
+    font-size: 11px;
+  }
+  .txt h2 {
+    font-size: 16px;
+  }
+  .txt button {
+    padding: 1px;
+  }
+  .Messages-message,
+  .Messages-message.currentMember {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .Messages-list {
+    padding: 120px 0 0;
+  }
+  .App-header {
+    gap: 300px;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .App-header {
+    gap: 200px;
+    margin: auto;
+  }
 }
 .dropbtn {
   border-radius: 50%;
@@ -214,7 +251,7 @@ section {
   border: none !important;
   color: white;
   font-size: 27px;
-  transform: translateX(-6px);
+  transform: translate(-6px);
 }
 
 .dropdown {
@@ -293,18 +330,19 @@ input[type="checkbox"] {
   height: 100%;
   width: 100%;
   top: 12px;
-  left: 15px;
+  left: 50px;
   height: 22px;
   width: 22px;
   margin-left: 340px;
 }
 .spinner {
+  margin: auto;
   transition: all 0.3s;
   box-sizing: border-box;
   position: absolute;
   height: 3px;
-  width: 100%;
-  background-color: white;
+  width: 25px;
+  background-color: #4a4ce5f5;
 }
 .horizontal {
   transition: all 0.3s;
@@ -345,4 +383,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   box-sizing: border-box;
   transform: rotate(-135deg);
   margin-top: -9px;
+}
+.btn:focus {
+  display: none;
 }
