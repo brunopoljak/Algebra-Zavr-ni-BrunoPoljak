@@ -136,6 +136,10 @@ button:hover {
 
   border: none !important;
 }
+.btn-send:hover {
+  background-color: purple;
+  transition: background-color 2s;
+}
 .txt p,
 h2,
 button {
@@ -157,6 +161,7 @@ button {
 }
 .txt button:hover {
   background-color: purple;
+  transition: background-color 2s;
 }
 .txt h2 {
   margin-top: 50px;
@@ -312,6 +317,8 @@ section {
 }
 .headerbtn:hover {
   background-color: #4c0a6dd3;
+
+  transition: background-color 2s;
 }
 input[type="checkbox"]:checked ~ #sidebarMenu {
   transform: translateX(0);

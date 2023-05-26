@@ -22,7 +22,8 @@
 }
 .login-btn:hover {
   color: white;
-  background-color: #4a4de5b2;
+  background-color: purple;
+  transition: background-color 2s;
 }
 .container {
   height: 20vh;
